@@ -1,4 +1,42 @@
-.banner-image {
+/* .banner-image {
     background-image: url('images/pic_1.jpg');
     background-size: cover;
+} */
+.register-btn {
+    filter: drop-shadow(0px 2px 20px rgba(0, 0, 0, 0.5));
+    background-color: #C271FF;
+}
+
+@media screen and (max-width: 768px) {
+    .navbar-nav {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .navbar-brand {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+#header {
+    position: absolute;
+    z-index: 10;
+    width: 100%;
+}
+
+.navbar {
+    padding-left: 5rem;
+    padding-right: 5rem;
+}
+
+.main {
+    position: relative;
+    background: url('images/pic_1.jpg');
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+    padding: 280px 0 280px;
 }
